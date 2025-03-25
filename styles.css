@@ -1,0 +1,20 @@
+body {
+    background-color: #0a0a23;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    display: flex;
+    margin: auto;
+}
+
+#intro {
+    text-align: center;
+    display: flex;
+    margin: auto;
+    padding: 100px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMP Character Creator</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Customize Your Character!</h1>
+    <form id="characterCreator">
+        <fieldset id="namePicker">
+            <legend>Name</legend>
+            <input type="Text" id="name">
+        </fieldset>
+        <fieldset id="classPicker">
+            <legend>Class</legend>
+            <select id="classSelector">
+                <option value="warrior">Warrior</option>
+                <option value="mage">Mage</option>
+                <option value="archer">Archer</option>
+            </select>
+        </fieldset>
+        <fieldset id="agePicker">
+            <legend>Age</legend>
+            <input type="number" id="age">
+        </fieldset>
+        <fieldset id="hairPicker">
+            <legend>Hair Color</legend>
+            <input type="color" id="hair">
+        </fieldset><br>
+        <button type="submit" id="finalize">Finalize Character!</button>
+    </form>
+</body>
+<script src="char_creation.js"></script>
+</html>
